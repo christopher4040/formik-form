@@ -23,7 +23,7 @@ function App() {
   });
   
   return (
-    <div class="card w-75 m-auto mt-5">
+    <div class="card w-75 m-auto mt-5" style={{maxWidth: 500}}>
       <div className="m-4">
         <form onSubmit={formik.handleSubmit}>
           <div className="mb-4">
